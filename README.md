@@ -51,34 +51,7 @@ This project predicts the `left_institution` label (0 = stayed, 1 = left) using 
 
 ---
 
-## 📁 3. Project Structure
-
-FACULTYFORECAST/
-│
-├── data/
-│ └── Faculty_Atrrition_Dataset.csv
-│
-├── models/
-│ ├── knn_svd.pkl
-│ ├── log_reg.pkl
-│ ├── random_forest.pkl
-│ └── svm_rbf.pkl
-│
-├── notebooks/
-│ ├── 01_EDA.ipynb
-│ ├── 02_preprocessing.ipynb
-│ ├── 03_LogisticRegression.ipynb
-│ ├── 04_SVM.ipynb
-│ ├── 05_knn.ipynb
-│ ├── 06_randomForest.ipynb
-│ └── 07_Ensemble_Models.ipynb
-│
-├── requirements.txt
-└── README.md
-
----
-
-## ⚙️ 4. Preprocessing Pipeline
+## ⚙️ 3. Preprocessing Pipeline
 
 - 🧹 Missing value handling  
 - 🔡 One-Hot Encoding  
@@ -88,7 +61,7 @@ FACULTYFORECAST/
 
 ---
 
-## 🤖 5. Model Performance Summary
+## 🤖 4. Model Performance Summary
 
 ### Logistic Regression (Tuned)
 - Accuracy: **0.796**
@@ -113,7 +86,7 @@ FACULTYFORECAST/
 
 ---
 
-## 🧠 6. Ensemble Models
+## 🧠 5. Ensemble Models
 
 ### Soft Voting Ensemble
 - Accuracy: **0.955**
@@ -126,7 +99,7 @@ FACULTYFORECAST/
 
 ---
 
-## ▶️ 7. How to Run
+## ▶️ 6. How to Run
 
 ### Install dependencies
 pip install -r requirements.txt 
@@ -141,7 +114,7 @@ Models are stored in the `models/` folder as `.pkl` files.
 
 ---
 
-## 💡 8. Key Insights
+## 💡 7. Key Insights
 
 - Work-life balance, admin support, and research funding strongly influence attrition.  
 - Random Forest and Ensembles outperform linear models.  
